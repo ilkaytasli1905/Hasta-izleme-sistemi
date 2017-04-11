@@ -1,0 +1,53 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="@drawable/steteskop"
+    tools:context="com.ilkaytasli.hastaizlemesistemi.MainActivity"
+    android:id="@+id/giris"
+    >
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textColorLink="@android:color/transparent" />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:hint="Lcd Üzerinde Bulunan Adresi Giriniz."
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textColorLink="?android:attr/colorControlActivated" />
+    <Button
+        android:text="Son Kullanılan Adres İle Giriş Yap"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/bSonAdres"
+        android:elevation="1dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/transparent" />
+    <Button
+        android:text="Yeni Bir Adres İle Giriş Yap"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/bYeniAdres"
+        android:elevation="1dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@android:color/white" />
+</FrameLayout>
